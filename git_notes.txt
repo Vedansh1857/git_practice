@@ -1,0 +1,34 @@
+Git is simply a tool through which we can automate our working on github, such as pushing a code from the powershell or cmd prompt, commiting a code from the powershell or cmd prompt, pulling a file or code from the github repo. to the vscode.
+
+We can do this through windows powershell or cmd prompt but we will use terminal of vscode to do this bcz we will be creating our projects in that only.
+
+First of all we will create a repo. on github manually, then write "git init" on the terminal it will intialize the git for that created repo. & will create a .git file in the folder.
+
+Secondly, suppose we want to create a README file for our created repo. So we will do "git add [filename]"
+
+Then, we will do commit the file.
+
+{If we are commiting for the first time, we will first give our email and name on the vscode terminal itself. It will show error and automatically asks to first authenticate ourself b4 commiting}
+
+Thirdly, we will create a main branch by the command.
+
+Then, we will give origin from the command
+
+Then finally push it through the given command.
+
+Note 1 :- All the commands are in my gallery or it will also be there on the screen after creating the repo.
+
+Note 2 :- While adding if we want to add all the untracked files in the folder the we write "git add ."
+
+Note 3 :- In vscode, if there is written 'U' after the filename, then it means untracked. In order to make it tracked(or add it) we use the add command. Then the 'U' will be changed to 'A' which means added. And suppose we modify an existing file (eg. README.md) then it will be displayed as 'M' which means modified.
+
+After modifying we only write add command, to add the modified file to the main and then we finally push the file from main to origin.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Now, let's talk abt .gitignore file... It is a file which contains a content that is related to our project but we do not want to push it to our github repo. OR to be recognised by git.
+
+Suppose, We create a new environment for a specific purpose of our project then we put it to .gitignore file bcz the size of that file will be much more big (Around 50 - 100GB), and there is a limitation of storage to push a file on github.
