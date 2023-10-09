@@ -1,5 +1,5 @@
-def add(a,b,c):
-    a+b+c
+def add(a,b,c,d):
+    a+b+c+d
 
 def sub(a,b,d):
     a-b-d
